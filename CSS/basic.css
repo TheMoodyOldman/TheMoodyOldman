@@ -1,0 +1,120 @@
+/* 基本模板 */
+* {
+    /* border: 1px black solid; */
+}
+
+html, body{
+    margin: 0%;
+    height: auto; /* 將高度設為100% 以讓後面的選擇器做高度填滿 */
+
+    display: flex; 
+    justify-content: center; /* 將物件做水平置中 */
+
+    background-color: rgb(236, 236, 236);
+}
+
+.body {
+    width: 1000px;
+    background-color: white;
+    box-shadow: 0 0 10px;
+    margin-top: 60px;
+    /* margin-bottom: 60px; */
+
+    font-family: "Heiti TC","微軟正黑體",
+    "Microsoft Sans Serif",
+    Helvetica,Geneva,
+    sans-serif,serif !important;
+}
+
+.title-row {
+    width: 100%;
+    display: flex;
+    
+    padding-bottom: 10px;  
+
+    /* background-color: #87CEFA; */
+}
+
+.title-marks {
+    display: flex;
+    width: 50%;
+    height: 5%;
+}
+
+.title-contents {
+    display: flex;
+    /* padding-left: 10px;    */
+    
+    width: 50%;
+    justify-content: right;
+}
+
+.title-selection {
+    padding: 10px;
+    border-radius: 1px; 
+    overflow: hidden;
+
+    width: 12%;
+
+    font-size: larger;
+
+    /* margin-left: 5px;
+    margin-right: 5px; */
+}
+.title-selection:hover { /* 當滑鼠移動到上方 */
+    transition: 0.5s;
+    background-color: #106fd1;
+}
+.title-selection:hover > a{
+    color: white;
+}
+.title-selection > a {
+    position: relative;
+    top: 10px;
+    left: 8px;
+}
+
+.signboard {
+}
+
+.buttom {
+    width: 100%;
+}
+
+.hideme {
+    opacity: 0;
+}
+.hideme-lit {
+    opacity: 0;
+}
+.hideme-light {
+    opacity: 0;
+}
+
+a {
+    color: black;
+    text-decoration:none;
+}
+
+#clubmark {
+    width: 100%;
+
+    border-radius: 50px;
+    overflow: hidden;
+
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#clubname {
+    margin: 0;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+
+    position: relative;
+    top: 30px;
+    left: 5px;
+}
+
+/* 基本模板 */
