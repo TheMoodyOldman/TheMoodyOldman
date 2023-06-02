@@ -1,0 +1,10 @@
+.center{
+    text-align: center;
+    border:1px solid black;
+    outline-style: double;
+    outline-color: darksalmon;
+    outline-width: thin;
+}
+.line-through{
+    text-decoration: line-through;
+}
